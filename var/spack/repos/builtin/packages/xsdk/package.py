@@ -92,8 +92,8 @@ class Xsdk(Package):
     depends_on('alquimia@xsdk-0.3.0', when='@0.3.0')
     depends_on('alquimia@xsdk-0.2.0', when='@xsdk-0.2.0')
 
-    depends_on('sundials@3.1.0~int64+hypre', when='@develop')
-    depends_on('sundials@3.1.2~int64+hypre', when='@0.4.0')
+    depends_on('sundials@3.2.0~int64+hypre', when='@develop')
+    depends_on('sundials@3.2.0~int64+hypre', when='@0.4.0')
     depends_on('sundials@3.1.0~int64+hypre', when='@0.3.0')
 
     depends_on('plasma@17.2:', when='@develop %gcc@6.0:')
