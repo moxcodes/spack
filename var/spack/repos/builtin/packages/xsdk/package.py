@@ -111,6 +111,12 @@ class Xsdk(Package):
     depends_on('slepc@develop', when='@develop')
     depends_on('slepc@3.10.0', when='@0.4.0')
 
+    depends_on('omega-h@develop', when='@develop')
+    depends_on('omega-h@develop', when='@0.4.0')
+
+    depends_on('strumpack@3.0.3', when='@develop')
+    depends_on('strumpack@3.0.3', when='@0.4.0')
+
     depends_on('tasmanian@develop+xsdkflags~openmp', when='@develop')
     depends_on('tasmanian@6.0+xsdkflags~openmp', when='@0.4.0')
     
